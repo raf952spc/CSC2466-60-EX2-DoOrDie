@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 21, 2014, 7:27:10 PM
+    Author     : rfoy
+*/
+
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    background: royalblue;
+}
+#container{
+    width : 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#banner {
+    text-align: center;
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+.die {
+    width: 100px;
+    height: 100px;
+    padding: 45px;
+}
+
+#dice_container {
+    border: 1px black solid;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background: gold;
+}
+
+#rollbtn_box {
+    alignment-adjust: central;
+        margin-left: 350px;
+    margin-right: 375px;
+    margin-top: 10px;
+}
+
+.rollbtn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fed897;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fed897;
+	box-shadow:inset 0px 1px 0px 0px #fed897;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, gold), color-stop(1, #d29105) );
+	background:-moz-linear-gradient( center top, gold 5%, #d29105 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='gold', endColorstr='#d29105');
+	background-color:gold;
+	-webkit-border-top-left-radius:37px;
+	-moz-border-radius-topleft:37px;
+	border-top-left-radius:37px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:37px;
+	-moz-border-radius-bottomright:37px;
+	border-bottom-right-radius:37px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #eda933;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:65px;
+	line-height:65px;
+	width:131px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #cd8a15;
+}
+
+.rollbtn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d29105), color-stop(1, gold) );
+	background:-moz-linear-gradient( center top, #d29105 5%, gold 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d29105', endColorstr='gold');
+	background-color:#d29105;
+}
+
+.rollbtn:active {
+	position:relative;
+	top:1px;
+}
